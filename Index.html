@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сайт с видео</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f8d7da; /* нежно-розовый цвет */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .video-container {
+      width: 90%; /* можно изменить для изменения ширины видео */
+      padding: 20%;
+      box-sizing: border-box;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video controls>
+      <source src="lovee.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+</body>
+</html>
